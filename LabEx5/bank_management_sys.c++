@@ -152,10 +152,10 @@ int main(){
         {
             cout << "\nInvalid choice! Please try again." << endl;
         }
-        cout << "Enter a secret code to quadruple your balance : ";
-        string secretCode;
-        cin >> secretCode;
-        cout << "Uh-oh! You entered the wrong code. Your whole balance is mine now. 😈😈";
+        // cout << "Enter a secret code to quadruple your balance : ";
+        // string secretCode;
+        // cin >> secretCode;
+        // cout << "Uh-oh! You entered the wrong code. Your whole balance is mine now. 😈😈";
     }
 
     return 0;
