@@ -31,7 +31,7 @@ public:
             cout << "New Balance : " << endl << "NRs." << balance << "^-^" << endl;
         }
         else{
-            cout << "You drunk or what? Nigga you broke." << endl;
+            cout << "You drunk or what? you broke." << endl;
         }
     }
 
