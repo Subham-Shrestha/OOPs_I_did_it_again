@@ -70,7 +70,6 @@ int main(){
     Bank account2(1002, "User 2", 3000);
     Bank account3(1003, "User 3", 7000);
 
-    // Array of pointers for easier management
     Bank *accounts[3] = {&account1, &account2, &account3};
 
     int choice, userChoice, operation;

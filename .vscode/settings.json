@@ -56,5 +56,6 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "cmake.sourceDirectory": "/Users/subham/Desktop/SubhamShrestha-82010959/LabEx1"
+  "cmake.sourceDirectory": "/Users/subham/Desktop/SubhamShrestha-82010959/LabEx1",
+  "editor.mouseWheelZoom": true
 }
