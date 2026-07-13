@@ -85,22 +85,22 @@ int main()
     Boat b;
     Aeroplane a;
 
-    cout << endl << "For car";
+    cout << endl << "For car" << endl;
     c.input();
 
-    cout << endl << "For boat";
+    cout << endl << "For boat" << endl;
     b.input();
 
-    cout << endl << "For aeroplane";
+    cout << endl << "For aeroplane" << endl;
     a.input();
 
-    cout << endl << endl << "Car Details";
+    cout << endl << endl << "Car Details" << endl;
     c.display();
 
-    cout << endl << "Boat Details";
+    cout << endl << "Boat Details" << endl;
     b.display();
 
-    cout << endl << "Aeroplane Details";
+    cout << endl << "Aeroplane Details" << endl;
     a.display();
 
     return 0;

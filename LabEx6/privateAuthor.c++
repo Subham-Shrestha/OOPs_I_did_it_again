@@ -10,9 +10,10 @@ class Person{
     public :
         void getData(){
             cout << "Enter name : ";
-            cin >> name;
+            getline(cin, name);
             cout << "Enter age : ";
             cin >> age;
+            cin.ignore();
         }
         void showData(){
             cout << "Name : " << name << endl;
