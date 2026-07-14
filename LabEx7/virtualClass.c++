@@ -58,14 +58,14 @@ public:
 class PhotocopyMachine : public Printer, public Scanner
 {
 private:
-    string model;
+    string type;
 
 public:
     void getData()
     {
         getDevice();
-        cout << "Enter Model: ";
-        cin >> model;
+        cout << "Enter Type(IR, Laser, Color) : ";
+        cin >> type;
         getPrinter();
         getScanner();
     }
@@ -74,7 +74,7 @@ public:
     {
         cout << "\n----- Photocopy Machine Details -----\n";
         showDevice();
-        cout << "Model: " << model << endl;
+        cout << "Type: " << type << endl;
         showPrinter();
         showScanner();
     }
