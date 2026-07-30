@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/subham/Desktop/SubhamShrestha-82010959/LabEx9/output/binaryOverload'
+relocations:     []
+...

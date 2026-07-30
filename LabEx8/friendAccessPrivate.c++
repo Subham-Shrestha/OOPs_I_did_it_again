@@ -22,7 +22,7 @@ public:
     void display(Battery battery){
         cout << endl << "Battery Details";
         cout << endl << "Type   : " << battery.type;
-        cout << endl << "Charge : " << battery.charge << "%";
+        cout << endl << "Charge : " << battery.charge << "%" << endl;
     }
 };
 
